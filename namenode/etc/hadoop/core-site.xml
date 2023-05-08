@@ -19,6 +19,6 @@
 <configuration>
   <property>
     <name>fs.defaultFS</name>
-    <value>hdfs://namenode.irrational.cc:9000</value>
+    <value>hdfs://namenode:9000</value>
   </property>
 </configuration>
