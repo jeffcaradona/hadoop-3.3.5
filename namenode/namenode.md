@@ -5,7 +5,7 @@ Install Java
 Get JAVA_HOME  
 
 
->   \$ dirname \$(dirname $(readlink -f \$(which java)))  
+>   \$ dirname \$(dirname \$(readlink -f \$(which java)))  
 /usr/lib/jvm/java-11-openjdk-arm64
 
 Create Hadoop HDFS Directories  
