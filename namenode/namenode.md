@@ -1,10 +1,12 @@
 Install Java
 
-> $ sudo apt update; sudo apt install openjdk-11-jre-headless -y; 
+> $ sudo apt update; sudo apt install openjdk-11-jdk-headless -y; 
 
 Get JAVA_HOME  
 
-    export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-arm64
+
+>   \$ dirname \$(dirname $(readlink -f \$(which java)))  
+/usr/lib/jvm/java-11-openjdk-arm64
 
 Create Hadoop HDFS Directories  
 
