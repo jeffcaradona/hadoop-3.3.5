@@ -1,5 +1,6 @@
 Install Java
 
+> $ sudo apt update; sudo apt install openjdk-11-jre-headless -y; 
 
 Get JAVA_HOME  
 
@@ -57,7 +58,4 @@ Set .profile
 Add this to the bottom of the file  
 
     PATH=/opt/hadoop/bin:/opt/hadoop/sbin:$PATH
-
-
-
 
